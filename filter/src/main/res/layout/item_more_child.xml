@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_more_text"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:gravity="center"
+    android:maxLines="1"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/tv_child_title"
+    android:textSize="13sp"
+    android:textColor="#666666"
+    tools:text="子标题">
+
+</TextView>

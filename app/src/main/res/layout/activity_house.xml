@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.zhuge.filter.FilterBar
+        android:id="@+id/filterbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabselectColor="@color/colorAccent"
+        app:tabUnselectColor="@color/color_000000"
+        app:tabTextSize="13sp"
+        app:tabSelectedIcon="@mipmap/bg_cms_shaixuan_red"
+        app:tabUnselectedIcon="@mipmap/bg_cms_shaixuan"
+        app:tabInconBottom="true"
+        app:tabLastIcon="@mipmap/bg_sort"/>
+
+    <TextView
+        android:id="@+id/tv_house"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="新房列表"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_below="@id/filterbar"
+        />
+
+    <FrameLayout
+        android:id="@+id/fl_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/filterbar"
+        android:visibility="gone"
+        android:background="@color/mask_color">
+
+    </FrameLayout>
+
+
+</RelativeLayout>

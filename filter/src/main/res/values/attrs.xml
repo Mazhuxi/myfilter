@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FileBar">
+        <attr name="tabselectColor" format="color" />
+        <attr name="tabUnselectColor" format="color" />
+        <attr name="tabTextSize" format="dimension" />
+        <attr name="tabSelectedIcon" format="reference" />
+        <attr name="tabUnselectedIcon" format="reference" />
+        <attr name="tabInconBottom" format="boolean" />
+        <attr name="tabLastIcon" format="reference" />
+    </declare-styleable>
+</resources>
